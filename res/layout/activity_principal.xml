@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0479AE"
+    android:keepScreenOn="true"
+    
+     >
+
+    <Button
+        android:id="@+id/btn_champion"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_jugar"
+        android:layout_alignLeft="@+id/btn_jugar"
+        android:layout_marginBottom="14dp"
+        android:background="#64b5f6"
+        android:drawableLeft="@drawable/champio"
+        android:paddingLeft="15dp"
+        android:text="@string/champion"
+        android:onClick="championship"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_jugar"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_salir"
+        android:layout_alignLeft="@+id/btn_salir"
+        android:layout_marginBottom="15dp"
+        android:background="#64b5f6"
+        android:drawableLeft="@drawable/play"
+        android:onClick="jugar"
+        android:paddingLeft="15dp"
+        android:paddingRight="40dp"
+        android:text="@string/jugar"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:background="#64b5f6"
+        android:drawableLeft="@drawable/about"
+        android:paddingLeft="15dp"
+        android:paddingRight="40dp"
+        android:text="@string/about"
+        android:onClick="about"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_about"
+        android:layout_alignLeft="@+id/btn_about"
+        android:layout_marginBottom="20dp"
+        android:background="#64b5f6"
+        android:drawableLeft="@drawable/salir"
+        android:paddingLeft="15dp"
+        android:paddingRight="70dp"
+        android:text="@string/salir"
+        android:onClick="salir"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_champion"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="26dp"
+        android:src="@drawable/nuve" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/nuve_fondo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_salir"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/nuve2" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_champion"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/nuve2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView01"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/personaje" />
+
+</RelativeLayout>

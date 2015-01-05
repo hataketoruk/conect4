@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="t_home">HOME</string>
+    <string name="t_champions">CHAMPIONS</string>
+    <string name="t_about">ABOUT</string>
+    <string name="t_settings">SETTINGS</string>
+    <string name="t_jugar">JUGAR</string>
+     <string name="t_nuevo">NUEVO JUGADOR</string>
+    
+    <string name="app_name">conect4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ideas">IdeasSoft ©</string>
+    <string name="champion">CHAMPIONSHIP</string>
+    <string name="jugar">JUGAR</string>
+    <string name="settings">SETTINGS</string>
+    <string name="about">ABOUT</string>
+    <string name="salir">Exit</string>
+    
+    <string name="menu1">Resumen</string>
+    <string name="menu2">Retry</string>
+    <string name="menu3">Exit</string>
+    
+    <string name="nuevo_jugador">NUEVO JUGADOR</string>
+    
+    <string name="title_nuevo">Igresa tu jugador</string>
+    <string name="altas_user">ALTA JUGADOR</string>
+    
+    <string name="nombre_jugador">Nombre:</string>
+    <string name="N_jugador">Jugador:</string>
+    
+    
+    
+    
+
+
+</resources>
