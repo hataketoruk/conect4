@@ -70,15 +70,21 @@
             </intent-filter>
         </activity>
         
-        <activity
-            android:name=".NuevoJugador"
+
+        
+         <activity
+            android:name=".infoJugador"
             android:label="@string/t_nuevo" >
             <intent-filter>
-                <action android:name="android.intent.action.NUEVOJUGADOR" />
+                <action android:name="android.intent.action.INFOJUGADOR" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+     	<activity android:name=".NuevoJugador"></activity>
+        <activity android:name=".Conecta3"></activity>
+
     </application>
 
 </manifest>

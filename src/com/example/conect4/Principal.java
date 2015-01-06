@@ -27,10 +27,7 @@ public class Principal extends ActionBarActivity {
 		Intent i = new Intent(Principal.this,Championship.class);
 		startActivity(i);
 	}
-	public void settings(View view){
-		Intent i = new Intent(Principal.this,Settings.class);
-		startActivity(i);
-	}
+	
 	public void about(View view){
 		Intent i = new Intent(Principal.this,About.class);
 		startActivity(i);
